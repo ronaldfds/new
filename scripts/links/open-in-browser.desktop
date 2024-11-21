@@ -1,0 +1,8 @@
+# Save as ~/.local/share/applications/open-in-browser.desktop
+[Desktop Entry]
+Type=Application
+Name=Open in Another Browser
+Comment=Open current link in a different browser
+Exec=browser-opener.sh %u
+MimeType=text/html;x-scheme-handler/http;x-scheme-handler/https;
+Categories=Network;WebBrowser;
